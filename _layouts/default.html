@@ -8,9 +8,8 @@
       </div>
     </main>
 
-    {%-if site.goat_counter and jekyll.environment == "production"-%}
-      {%-include goat_counter.html-%}
-    {%-endif-%}
+    <script data-goatcounter="https://lab92.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}
