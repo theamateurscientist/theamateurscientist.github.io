@@ -48,7 +48,7 @@ Since I wanted to be able to print whatever material I desired, I experimented w
 For my binder, I chose stearic acid since it was the binder used by the research paper I am basing my technique on[^1]. I messed around with aluminum powder and activated charcoal as base materials. The results have not been great.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ISAMmcf2i4o" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
-![Future Plans](#future-plans)
+## [Future Plans](#future-plans)
 I'm away from home doing research for the summer, so I unfortunately have to put aside this project for a while.
 The powder system definitely needs some work. I'm considering moving over to a roller system rather than a pusher system. I also want to change out the lead screws used for the powder pistons to something that can handle the force better.
 For the slicer, I'm planning to implement different laser scanning patterns. I've seen some research papers discuss using alternating scan directions as well as a checkerboard scan pattern.
