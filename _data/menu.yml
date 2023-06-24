@@ -18,19 +18,18 @@ entries:
 
   - title: projects
     entries:
-  - title: X-Ray Projects
-    post_list:
-      category: xray
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: xray-archive.html
-    entries:
-  - title: Powder Bed Printer
-    post_list:
-      category: powder_bed_printer
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: powder_bed_printer-archive.html
+      - title: X-Ray Projects
+        post_list:
+          category: xray
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: xray-archive.html
+      - title: Powder Bed Printer
+        post_list:
+          category: powder_bed_printer
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: powder_bed_printer-archive.html
 
 #  - title: rss
 #    url: feed.xml
