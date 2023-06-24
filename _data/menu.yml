@@ -9,12 +9,6 @@ entries:
         url: https://www.youtube.com/@lab_92
     #  - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
 
-  - title: all posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
 
   - title: projects
     entries:
@@ -30,6 +24,13 @@ entries:
           show_more: true
           show_more_text: See more posts...
           show_more_url: powder_bed_printer-archive.html
+
+  - title: all posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
 
 #  - title: rss
 #    url: feed.xml
