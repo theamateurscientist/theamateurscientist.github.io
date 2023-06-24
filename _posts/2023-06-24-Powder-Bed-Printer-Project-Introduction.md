@@ -27,13 +27,13 @@ A powder bed printer builds 3D objects by creating many 2D cross-sections, just 
 
 I want to create a powder bed printer because of the possibilities for printing more strong or more desirable materials than plastic. A powder bed printer can potentially print ceramics and metals. However, due to the relatively low power of my laser compared to commercial units, I cannot melt metals or sinter ceramics directly. But, there is a way.
 
-Instead of melting the build material directly, you first mix a low-melting temerature binder with the material you desire to build. Then, you fuse the material-binder combo together in the desired shape as you would normally with a powder bed printer. The resulting object that comes out is called a green body. To create the finished part, the binder must be burnt out and the desired final material will remain. This technique has been successfully used to create aluminum oxide parts using a laser in the same power range as mine[^1].
+Instead of melting the build material directly, you first mix a low-melting temperature binder with the material you desire to build. Then, you fuse the material-binder combo together in the desired shape as you would normally with a powder bed printer. The resulting object that comes out is called a green body. To create the finished part, the binder must be burnt out and the desired final material will remain. This technique has been successfully used to create aluminum oxide parts using a laser in the same power range as mine[^1].
 
 While this technique does allow for usage of a lower power, and therefore more affordable, laser, it does have some drawbacks. First, melting out the binder material results in the model shrinking. Second, this method requires extra equipment (a furnace/kiln) to burn out the powder and fuse the final material. Although, I have been wanting to make a lab furnace anyway. So, for me, needing to build a furnace is not too bothersome.
 
 ## [Current Progress](#current-progress)
 ### Laser System
-So far, the laser power control and laser movement system are complete. For the laser diode, I am using a Nichia 7W+ NUBM44 450nm laser diode. To drive the laser diode, I assembled a laser diode driver circuit that features PWM control. Thanks to user OddOne on Candle Power Forums for creating the circuit (orignally for LEDs, but works for lasers)[^2].
+So far, the laser power control and laser movement system are complete. For the laser diode, I am using a Nichia 7W+ NUBM44 450nm laser diode. To drive the laser diode, I assembled a laser diode driver circuit that features PWM control. Thanks to user OddOne on Candle Power Forums for creating the circuit (originally for LEDs, but works for lasers)[^2].
 
 ![Laser Diode Driver Schematic](/pictures/pbp/MOSFET_Current_Regulator_web.png)
 ![Laser Diode Driver](/pictures/pbp/laser_diode_driver.jpg)
@@ -48,8 +48,7 @@ Before I put together the powder system, I used the printer as a laser engraver.
 <iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/_btE86icDkA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
 ### Custom Slicer
-A 3D printer slicer is a program that takes a 3D model, "slices" it into 2D sections, then creates code for creating the right patterns for the printer to execute. I initially wanted to make the printer work with premade slicers (PrusaSlicer, Slic3r, Cura) but the gcode flavor/format they output was not suitable for my printer.
-I will share the code once I finalize it, but I ended up using some external programs along with my own Python code to create a working slicer. Once the program is finalized, I will create a seperate post going into more detail about what it does and how it works.
+A 3D printer slicer is a program that takes a 3D model, "slices" it into 2D sections, then creates code for making the right movements for the printer to execute. I initially wanted to make the printer work with premade slicers (PrusaSlicer, Slic3r, Cura) but the gcode flavor/format they output was not suitable for my printer. I will share the code once I finalize it, but I ended up using some external programs along with my own Python code to create a working slicer. Once the program is finalized, I will create a seperate post going into more detail about what it does and how it works.
 ### Manufacturing Usable Powder
 Since I wanted to be able to print whatever material I desired, I experimented with creating my own powders. To get the fineness of powder I need (around 40 micron) I jerry-rigged a ball mill setup using an old vitamin bottle, a lathe, and some steel ball bearings. It works suprisingly well to smash the starting materials.
 
