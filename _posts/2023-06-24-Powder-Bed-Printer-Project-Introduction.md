@@ -64,7 +64,6 @@ As for making the powders themselves, I just need to play around more with ball 
 
 Anyways, thanks for reading all that. I hope you stick around to see this project's progress. Take care.
 
-### Footnotes
 ---
 {: data-content="footnotes"}
 
