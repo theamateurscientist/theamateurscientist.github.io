@@ -37,8 +37,8 @@ So far, the laser power control and laser movement system are complete. For the 
 
 ![Laser Diode Driver Schematic](/pictures/pbp/MOSFET_Current_Regulator_web.png)
 ![Laser Diode Driver](/pictures/pbp/laser_diode_driver.jpg)
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HtgSjghh45Y" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>{:.ioda}
+<iframe width=100% src="https://www.youtube-nocookie.com/embed/HtgSjghh45Y" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+</iframe>
 ### Hardware Control
 To control all the stepper motors for my printer and control the laser diode driver, I utilized a RAMPS 1.4 which is an Arduino MEGA-based 3D printer hardware controller[^3]. I'm running Repetier firmware on the controller due to support for laser control[^4]. All the motors I am using were extracted from an old Printrbot Plus.
 
