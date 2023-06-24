@@ -60,7 +60,7 @@ The powder system definitely needs some work. I'm considering moving over to a r
 
 For the slicer, I'm planning to implement different laser scanning patterns. I've seen some research papers discuss using alternating scan directions as well as a checkerboard scan pattern.
 
-As for making the powders themselves, I just need to play around more with ball bearing sizes, mill speeds, and powder compositions. That portion of the project is the part I've spent the least time with. I'm also considering purchasing some black powder coating as it is a fine plastic powder that others have had success using in their laser powder bed printing systems. This would allow me to tune the printer's parameters with a generous supply of ready to use printing material.
+As for making the powders themselves, I just need to play around more with ball bearing sizes, mill speeds, and powder compositions. That portion of the project is the part I've spent the least time with. I'm also considering purchasing some black powder coating as it is a fine plastic powder that others have had success using in their laser powder bed printing systems[^5]. This would allow me to tune the printer's parameters with a generous supply of ready to use printing material.
 
 Anyways, thanks for reading all that. I hope you stick around to see this project's progress. Take care.
 
@@ -71,3 +71,4 @@ Anyways, thanks for reading all that. I hope you stick around to see this projec
 [^2]: OddOne, "Super-Simple Power MOSFET Linear Current Regulator," https://www.candlepowerforums.com/threads/super-simple-power-mosfet-linear-current-regulator.236260/
 [^3]: "RAMPS 1.4," RepRap Wiki, https://reprap.org/wiki/RAMPS_1.4
 [^4]: "Laser Mode," Repetier, https://www.repetier.com/laser-mode/
+[^5]: Vulcaman, "DIY-SLS-3D-Printer," https://www.instructables.com/DIY-SLS-3D-Printer/
