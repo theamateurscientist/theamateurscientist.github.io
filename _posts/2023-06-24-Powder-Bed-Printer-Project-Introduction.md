@@ -45,7 +45,7 @@ To control all the stepper motors for my printer and control the laser diode dri
 Before I put together the powder system, I used the printer as a laser engraver. I engraved the Windows "Bliss" background as well as my university's logo. I also used the laser to cut foam gaskets for the powder pistons.
 
 ![Windows Bliss Engraving](/pictures/pbp/bliss.jpg)
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_btE86icDkA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+<iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/_btE86icDkA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
 ### Custom Slicer
 A 3D printer slicer is a program that takes a 3D model, "slices" it into 2D sections, then creates code for creating the right patterns for the printer to execute. I initially wanted to make the printer work with premade slicers (PrusaSlicer, Slic3r, Cura) but the gcode flavor/format they output was not suitable for my printer.
@@ -54,7 +54,7 @@ I will share the code once I finalize it, but I ended up using some external pro
 Since I wanted to be able to print whatever material I desired, I experimented with creating my own powders. To get the fineness of powder I need (around 40 micron) I jerry-rigged a ball mill setup using an old vitamin bottle, a lathe, and some steel ball bearings. It works suprisingly well to smash the starting materials.
 
 For my binder, I chose stearic acid since it was the binder used by the research paper I am basing my technique on[^1]. I messed around with aluminum powder and activated charcoal as base materials. The results have not been great.
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ISAMmcf2i4o" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+<iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/ISAMmcf2i4o" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
 ## [Future Plans](#future-plans)
 I'm away from home doing research for the summer, so I unfortunately have to put aside this project for a while.
