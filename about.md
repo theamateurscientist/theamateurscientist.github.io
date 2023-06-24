@@ -3,6 +3,4 @@ layout: page
 title: About
 ---
 
-This is an example page!
-
-It's very similar to a `post` layout, with the only difference that the publish date is not shown!
+Hello! I am a university engineering student who is very passionate about working on cool projects at home and learning by doing. I've worked on a lot of stuff like rocket engines, X-Ray machines, 3D printers, computers, and more. This website is an attempt to document my work and provide resources for others and future me. 
