@@ -31,4 +31,4 @@ While this technique does allow for usage of a lower power, and therefore more a
 ---
 {: data-content="footnotes"}
 
-[1^]: Z. H. Liu et al., “Selective laser sintering of high-density alumina ceramic parts,” Proceedings of the 35th International MATADOR Conference, pp. 351–354, 2007. doi:10.1007/978-1-84628-988-0_79
+[^1]: Z. H. Liu et al., “Selective laser sintering of high-density alumina ceramic parts,” Proceedings of the 35th International MATADOR Conference, pp. 351–354, 2007. doi:10.1007/978-1-84628-988-0_79
