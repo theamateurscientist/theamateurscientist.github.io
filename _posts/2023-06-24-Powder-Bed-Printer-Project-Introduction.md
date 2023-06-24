@@ -31,8 +31,7 @@ While this technique does allow for usage of a lower power, and therefore more a
 ### Laser System
 So far, the laser power control and laser movement system are complete. For the laser diode, I am using a Nichia 7W+ NUBM44 450nm laser diode. To drive the laser diode, I assembled a laser diode driver circuit that features PWM control. Thanks to user OddOne on Candle Power Forums for creating the circuit (orignally for LEDs, but works for lasers)[^2].
 ![Laser Diode Driver Schematic](/pictures/pbp/MOSFET_Current_Regulator_web.png)
-[!Laser Diode Driver](/pictures/pbp/laser_diode_driver.jpg)
-
+![Laser Diode Driver](/pictures/pbp/laser_diode_driver.jpg)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HtgSjghh45Y" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
 ### Hardware Control
