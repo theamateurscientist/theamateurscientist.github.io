@@ -2,7 +2,6 @@
 layout: post
 category: powder_bed_printer
 ---
-
 I've been planning on building a powder bed printer for a few years and finally started construction at the beginning of this year. This post will be an introduction to what this project is, my current progress, and my plans for it.
 ![Picture of laser system in action](/pictures/pbp/laser_example.jpg)
 
@@ -28,6 +27,7 @@ Instead of melting the build material directly, you first mix a low-melting teme
 
 While this technique does allow for usage of a lower power, and therefore more affordable, laser, it does have some drawbacks. First, melting out the binder material results in the model shrinking. Second, this method requires extra equipment (a furnace/kiln) to burn out the powder and fuse the final material. Although, I have been wanting to make a lab furnace anyway. So, for me, needing to build a furnace is not too bothersome.
 
+# PAGE IN PROGRESS
 ---
 {: data-content="footnotes"}
 
