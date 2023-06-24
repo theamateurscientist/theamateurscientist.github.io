@@ -5,6 +5,9 @@ category: powder_bed_printer
 I've been planning on building a powder bed printer for a few years and finally started construction at the beginning of this year. This post will be an introduction to what this project is, my current progress, and my plans for it.
 ![Picture of laser system in action](/pictures/pbp/laser_example.jpg)
 
+# CAUTION
+High power lasers like the kind used in this project can blind you instantly. If you are going to attempt to recreate my work, please wear proper laser safety goggles. You have only one pair of eyes (for now)!
+
 ## Table of contents
 - [Project Overview](#project-overview)
 - [Current Progress](#current-progress)
