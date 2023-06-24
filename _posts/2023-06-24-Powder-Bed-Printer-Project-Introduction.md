@@ -27,8 +27,16 @@ Instead of melting the build material directly, you first mix a low-melting teme
 
 While this technique does allow for usage of a lower power, and therefore more affordable, laser, it does have some drawbacks. First, melting out the binder material results in the model shrinking. Second, this method requires extra equipment (a furnace/kiln) to burn out the powder and fuse the final material. Although, I have been wanting to make a lab furnace anyway. So, for me, needing to build a furnace is not too bothersome.
 
+## [Current Progress](#current-progress)
+So far, the laser and laser movement system are complete. For the laser diode, I am using a Nichia 7W+ NUBM44 450nm laser diode. To drive the laser diode, I assembled a laser diode driver circuit that features PWM control. Thanks to user OddOne on Candle Power Forums for creating the circuit (orignally for LEDs, but works for lasers)[^2].
+![Laser Diode Driver Schematic](/pictures/pbp/MOSFET_Current_Regulator_web.png)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HtgSjghh45Y" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+ Before I put together the powder system, I used the printer as a laser engraver.
 # PAGE IN PROGRESS
 ---
 {: data-content="footnotes"}
 
 [^1]: Z. H. Liu et al., “Selective laser sintering of high-density alumina ceramic parts,” Proceedings of the 35th International MATADOR Conference, pp. 351–354, 2007. doi:10.1007/978-1-84628-988-0_79
+[^2]: OddOne, "Super-Simple Power MOSFET Linear Current Regulator," https://www.candlepowerforums.com/threads/super-simple-power-mosfet-linear-current-regulator.236260/
