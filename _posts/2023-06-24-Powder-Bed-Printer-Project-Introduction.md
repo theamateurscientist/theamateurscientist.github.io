@@ -37,7 +37,7 @@ So far, the laser power control and laser movement system are complete. For the 
 
 ![Laser Diode Driver Schematic](/pictures/pbp/MOSFET_Current_Regulator_web.png)
 ![Laser Diode Driver](/pictures/pbp/laser_diode_driver.jpg)
-<iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/HtgSjghh45Y" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+<iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/HtgSjghh45Y" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 ### Hardware Control
 To control all the stepper motors for my printer and control the laser diode driver, I utilized a RAMPS 1.4 which is an Arduino MEGA-based 3D printer hardware controller[^3]. I'm running Repetier firmware on the controller due to support for laser control[^4]. All the motors I am using were extracted from an old Printrbot Plus.
@@ -45,7 +45,7 @@ To control all the stepper motors for my printer and control the laser diode dri
 Before I put together the powder system, I used the printer as a laser engraver. I engraved the Windows "Bliss" background as well as my university's logo. I also used the laser to cut foam gaskets for the powder pistons.
 
 ![Windows Bliss Engraving](/pictures/pbp/bliss.jpg)
-<iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/_btE86icDkA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+<iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/_btE86icDkA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 ### Custom Slicer
 A 3D printer slicer is a program that takes a 3D model, "slices" it into 2D sections, then creates code for making the right movements for the printer to execute. I initially wanted to make the printer work with premade slicers (PrusaSlicer, Slic3r, Cura) but the gcode flavor/format they output was not suitable for my printer. I will share the code once I finalize it, but I ended up using some external programs along with my own Python code to create a working slicer. Once the program is finalized, I will create a seperate post going into more detail about what it does and how it works.
@@ -53,7 +53,7 @@ A 3D printer slicer is a program that takes a 3D model, "slices" it into 2D sect
 Since I wanted to be able to print whatever material I desired, I experimented with creating my own powders. To get the fineness of powder I need (around 40 micron) I jerry-rigged a ball mill setup using an old vitamin bottle, a lathe, and some steel ball bearings. It works suprisingly well to smash the starting materials.
 
 For my binder, I chose stearic acid since it was the binder used by the research paper I am basing my technique on[^1]. I messed around with aluminum powder and activated charcoal as base materials. The results have not been great.
-<iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/ISAMmcf2i4o" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+<iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/ISAMmcf2i4o" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 ## [Future Plans](#future-plans)
 I'm away from home doing research for the summer, so I unfortunately have to put aside this project for a while.
