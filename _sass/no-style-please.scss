@@ -23,7 +23,8 @@ body[a="dark"] { @include dark-appearance; }
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
 // #a3ffa3
-html, body { background: #ccffcc; }
+// #ccffcc
+html, body { background: PapayaWhip; }
 
 html { height: 100%; }
 
