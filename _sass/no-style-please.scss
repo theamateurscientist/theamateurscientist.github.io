@@ -24,7 +24,8 @@ body[a="dark"] { @include dark-appearance; }
 // see: https://stackoverflow.com/a/61265706
 // #a3ffa3
 // #ccffcc
-html, body { background: PapayaWhip; }
+// PapayaWhip
+html, body { background: #fff8e7; }
 
 html { height: 100%; }
 
