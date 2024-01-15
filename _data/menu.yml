@@ -32,12 +32,12 @@ entries:
           show_more: true
           show_more_text: See more posts...
           show_more_url: powder_bed_printer-archive.html
-      - title: Glass Resin Printing
+      - title: Glass AM via Resin Printing
         post_list:
-            category: glass_resin_printing
-            show_more: true
-            show_more_text: See more posts...
-            show_more_url: glass_resin_printing-archive.html
+          category: resin_glass_printing
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: glass_resin_printing-archive.html
 
 
 #  - title: rss
