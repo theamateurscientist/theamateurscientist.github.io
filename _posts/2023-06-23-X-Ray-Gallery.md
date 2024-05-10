@@ -10,3 +10,5 @@ About a year ago I was messing around with generating X-Rays using vacuum rectif
 ![X-ray of a lighter](/pictures/lighter_xray.jpg)
 ### X-ray of my old phone
 ![X-ray of my old phone](/pictures/oneplusone_xray_2ndcrop.jpg)
+### X-ray of my mechanical pencil
+![X-ray of mechanical pencil](/pictures/kurutoga_xray_compare.jpg)
