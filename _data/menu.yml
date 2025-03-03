@@ -10,6 +10,8 @@ entries:
     #  - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
       - title: About Me
         url: about
+      - title: Minecraft Server Map
+        url: minecraft_map
         
   - title: most recent posts
     post_list:
